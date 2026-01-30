@@ -76,7 +76,7 @@ const PageTeachersStaff = () => {
         </div>
 
         {/* Title */}
-        <h1 className="text-title text-center">
+        <h1 className="text-title text-primary text-center">
           {isStaffPage ? t("staff") : t("teachers")}
         </h1>
 
@@ -85,31 +85,31 @@ const PageTeachersStaff = () => {
           <table className="w-full">
             <thead className="bg-[var(--background_component)] text-subtitle text-center">
               <tr>
-                <th className="border-y border-[var(--color_text_title)]/50 py-5">
+                <th className="border-y border-[var(--color_text_title)]/50 p-5">
                   {t("number")}
                 </th>
-                <th className="border-y border-[var(--color_text_title)]/50 py-5">
+                <th className="border-y border-[var(--color_text_title)]/50 p-5">
                   {t("name")}
                 </th>
-                <th className="border-y border-[var(--color_text_title)]/50 py-5">
+                <th className="border-y border-[var(--color_text_title)]/50 p-5">
                   {t("status")}
                 </th>
               </tr>
             </thead>
 
-            <tbody className="text-paragraph text-center">
+            <tbody className="text-paragraph">
               {paginatedData.map((item, idx) => (
                 <tr
                   key={item.id}
                   className="hover:bg-[var(--background_component)]/60"
                 >
-                  <td className="border-y border-[var(--color_text_title)]/30 py-5">
+                  <td className="border-y border-[var(--color_text_title)]/30 p-5 text-center">
                     {(page - 1) * perPage + idx + 1}
                   </td>
-                  <td className="border-y border-[var(--color_text_title)]/30 py-5">
+                  <td className="border-y border-[var(--color_text_title)]/30 p-5">
                     {item.name}
                   </td>
-                  <td className="border-y border-[var(--color_text_title)]/30 py-5">
+                  <td className="border-y border-[var(--color_text_title)]/30 p-5">
                     {item.status}
                   </td>
                 </tr>

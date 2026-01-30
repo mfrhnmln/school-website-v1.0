@@ -23,16 +23,16 @@ const Pagination = ({ currentPage = 1, totalPages = 1, onPageChange }) => {
   );
 
   return (
-    <div className="flex justify-center items-center gap-2 flex-wrap">
+    <div className="flex w-full px-5 justify-center items-center gap-2">
       {/* PREVIOUS */}
       <button
         disabled={currentPage === 1}
         onClick={() => onPageChange(currentPage - 1)}
-        className={`btn btn-default ${
+        className={`btn-default px-4 py-2 rounded-xl ${
           currentPage === 1 ? "opacity-50 cursor-not-allowed" : ""
         }`}
       >
-        Previous
+        <i className="ri-arrow-left-circle-line"></i>
       </button>
 
       {/* PAGE NUMBERS */}
@@ -44,7 +44,7 @@ const Pagination = ({ currentPage = 1, totalPages = 1, onPageChange }) => {
           <button
             key={page}
             onClick={() => onPageChange(page)}
-            className={`btn ${isActive ? "btn-primary" : "btn-default"}`}
+            className={`px-4 py-2 rounded-xl ${isActive ? "btn-primary" : "btn-default"}`}
             aria-current={isActive ? "page" : undefined}
           >
             {page}
@@ -56,11 +56,11 @@ const Pagination = ({ currentPage = 1, totalPages = 1, onPageChange }) => {
       <button
         disabled={currentPage === totalPages}
         onClick={() => onPageChange(currentPage + 1)}
-        className={`btn btn-default ${
+        className={`btn-default px-4 py-2 rounded-xl ${
           currentPage === totalPages ? "opacity-50 cursor-not-allowed" : ""
         }`}
       >
-        Next
+        <i className="ri-arrow-right-circle-line"></i>
       </button>
     </div>
   );

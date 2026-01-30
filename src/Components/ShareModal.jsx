@@ -42,14 +42,14 @@ const ShareModal = ({ show, onClose }) => {
       onClick={onClose}
     >
       <div
-        className={`flex flex-col w-full max-w-3xl bg-[var(--background_modal)] rounded-t-3xl shadow-2xl p-4 gap-5 transform transition-transform duration-300 ${
+        className={`flex flex-col w-full max-w-3xl bg-[var(--background_modal)] rounded-t-3xl shadow-2xl p-4 gap-6 transform transition-transform duration-300 ${
           animate ? "translate-y-0" : "translate-y-full"
         }`}
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="flex justify-between items-center relative px-5">
-          <h2 className="text-subtitle font-bold text-primary text-center w-full ml-10">
+        <div className="flex justify-between items-center relative px-5 border-b pb-5 border-[var(--border_default)]">
+          <h2 className="text-subtitle font-bold text-primary text-center w-full">
             Bagikan ke
           </h2>
           <button
@@ -62,7 +62,7 @@ const ShareModal = ({ show, onClose }) => {
         </div>
 
         {/* Share Icons */}
-        <div className="flex justify-start overflow-x-auto hide-scrollbar gap-10 px-10 py-4 snap-x snap-mandatory">
+        <div className="flex justify-start overflow-x-auto hide-scrollbar px-5 pb-4 gap-10 snap-x snap-mandatory">
           {sortedLinks.map((link) => (
             <div
               key={link.id}

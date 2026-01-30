@@ -1,5 +1,5 @@
 const DataHistory = {
-  image: "/SchoolAnimation/school-afternoon.png",
+  image: "/schoolAnimation/school-afternoon.png",
   date: "01-08-2025",
   author: "Admin",
 
@@ -64,7 +64,7 @@ const DataHistory = {
       },
       {
         period: "2010 - 2020",
-        image: "/schoolLogo/logo-3.png",
+        image: "/schoolLogo/terang.png",
         description: {
           id: `Logo tahun 2010 menampilkan warna biru yang lebih dominan untuk mencerminkan kepercayaan dan kemajuan.`,
           en: `The 2010 logo featured a more dominant blue color to reflect trust and progress.`,
@@ -72,7 +72,7 @@ const DataHistory = {
       },
       {
         period: "2020 - sekarang",
-        image: "/schoolLogo/logo-4.png",
+        image: "/schoolLogo/gelap.png",
         description: {
           id: `Logo terbaru menyempurnakan desain sebelumnya dengan tampilan modern tanpa menghilangkan makna filosofis.`,
           en: `The latest logo refined the previous design with a modern look while preserving its philosophy.`,
