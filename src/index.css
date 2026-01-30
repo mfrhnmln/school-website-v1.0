@@ -1,0 +1,380 @@
+@import "tailwindcss";
+
+/* ====================== Animation ====================== */
+/* html, body {
+  overflow-x: hidden;
+} */
+
+/* Hilangkan scrollbar di semua browser */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE dan Edge lama */
+  scrollbar-width: none; /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* running text */
+@keyframes scrollText {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(0); /* biar diam dulu sebentar */
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  display: inline-block;
+  animation: scrollText 60s linear infinite;
+}
+
+/* ========================= Font ========================= */
+/* Font Size (Desktop Default) */
+:root {
+  /* Navigation (Header & Sidebar) */
+  --font_size_nav: 0.9rem; /* 16px */
+
+  /* Content */
+  --font_size_title: 1.75rem; /* 28px */
+  --font_size_subtitle: 1.25rem; /* 20px */
+  --font_size_paragraph: 1rem; /* 16px */
+  --font_size_helper: 0.875rem; /* 14px */
+  --font_size_image_caption: 0.875rem;
+  --font_size_date: 2.75rem;
+
+  /* Buttons */
+  --font_size_button: 0.95rem;
+  --button_padding_y: 0.75rem;
+  --button_padding_x: 1.5rem;
+  --button_radius: 0.5rem;
+
+  /* Global Icon */
+  --font_size_small_icon: 1.25rem; /* 20px */
+  --font_size_large_icon: 1.75rem;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  :root {
+    /* Navigation (Header & Sidebar) */
+    --font_size_nav: 0.8rem;
+
+    /* Content */
+    --font_size_title: 1.6rem;
+    --font_size_subtitle: 1.2rem;
+    --font_size_paragraph: 0.95rem;
+    --font_size_helper: 0.85rem;
+    --font_size_image_caption: 0.8rem;
+    --font_size_date: 2.3rem;
+
+    /* Buttons */
+    --font_size_button: 0.9rem;
+    --button_padding_y: 0.7rem;
+    --button_padding_x: 1.25rem;
+
+    /* Global Icon */
+    --font_size_small_icon: 1.15rem; /* 20px */
+    --font_size_large_icon: 1.55rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  :root {
+    /* Navigation (Header & Sidebar) */
+    --font_size_nav: 0.875rem;
+
+    /* Content */
+    --font_size_title: 1.35rem;
+    --font_size_subtitle: 1.1rem;
+    --font_size_paragraph: 0.875rem;
+    --font_size_helper: 0.75rem;
+    --font_size_image_caption: 0.75rem;
+    --font_size_date: 2rem;
+
+    /* Buttons */
+    --font_size_button: 0.85rem;
+    --button_padding_y: 0.625rem;
+    --button_padding_x: 1rem;
+
+    /* Global Icon */
+    --font_size_small_icon: 1.1rem; /* 20px */
+    --font_size_large_icon: 1.25rem;
+  }
+}
+
+/* ==================== Color (theme) ==================== */
+/* theme Light */
+[data-theme="light"] {
+  /* Brand */
+  --primary: #033599;
+  --primary_hover: #022b7a;
+  --primary_active: #021f59;
+  --secondary: #e0a800;
+  --secondary_hover: #c69500;
+
+  /* Background */
+  --background: #ffffff;
+  --background_surface: #f8f9fa;
+  --background_surface_hover: #f1f3f5;
+  --background_nav: #f1f3f5;
+  --background_modal: #ffffff;
+  --background_overlay: rgba(0, 0, 0, 0.5);
+
+  /* Text */
+  --text_primary: #212529;
+  --text_secondary: #495057;
+  --text_muted: #6c757d;
+  --text_disabled: #adb5bd;
+  --text_inverse: #ffffff;
+
+  /* Text Netral */
+  --text_white: #ffffff;
+  --text_Black: #000000;
+
+  /* Border & Divider */
+  --border_default: #dee2e6;
+  --border_light: #e9ecef;
+  --border_focus: #033599;
+  --divider: #dee2e6;
+
+  /* Status */
+  --success: #22bb33;
+  --success_bg: #e6f4ea;
+  --error: #bb2124;
+  --error_bg: #fdecea;
+  --warning: #ffc107;
+  --warning_bg: #fff8e1;
+  --info: #339af0;
+  --info_bg: #e3f2fd; /* Shadow */
+  --shadow_sm: 0 1px 2px rgba(0, 0, 0, 0.08);
+  --shadow_md: 0 4px 10px rgba(0, 0, 0, 0.12);
+  --shadow_lg: 0 10px 25px rgba(0, 0, 0, 0.15);
+
+  /* Focus */
+  --focus_ring: 0 0 0 3px rgba(3, 53, 153, 0.35);
+}
+
+/* theme Dark */
+[data-theme="dark"] {
+  /* Brand */
+  --primary: #4d7cff; /* biru lebih terang & soft */
+  --primary_hover: #6b8cff;
+  --primary_active: #3b6cf0;
+
+  --secondary: #ffd43b;
+  --secondary_hover: #fcc419;
+
+  /* Background */
+  --background: #121212;
+  --background_surface: #1e1e1e;
+  --background_surface_hover: #2a2a2a;
+  --background_nav: #1c1c1c;
+  --background_modal: #1e1e1e;
+  --background_overlay: rgba(0, 0, 0, 0.7);
+
+  /* Text */
+  --text_primary: #e9ecef; /* teks utama */
+  --text_secondary: #ced4da;
+  --text_muted: #adb5bd;
+  --text_disabled: #6c757d;
+  --text_inverse: #121212; /* teks di atas bg terang */
+
+  /* Text Netral */
+  --text_white: #ffffff;
+  --text_Black: #000000;
+
+  /* Border & Divider */
+  --border_default: #2f2f2f;
+  --border_light: #3a3a3a;
+  --border_focus: #4d7cff;
+  --divider: #2f2f2f;
+
+  /* Status */
+  --success: #51cf66;
+  --success_bg: rgba(81, 207, 102, 0.15);
+
+  --error: #ff6b6b;
+  --error_bg: rgba(255, 107, 107, 0.15);
+
+  --warning: #ffd43b;
+  --warning_bg: rgba(255, 212, 59, 0.15);
+
+  --info: #339af0;
+  --info_bg: rgba(51, 154, 240, 0.15);
+
+  /* Shadow */
+  --shadow_sm: 0 1px 2px rgba(0, 0, 0, 0.6);
+  --shadow_md: 0 4px 10px rgba(0, 0, 0, 0.7);
+  --shadow_lg: 0 10px 25px rgba(0, 0, 0, 0.8);
+
+  /* Focus */
+  --focus_ring: 0 0 0 3px rgba(77, 124, 255, 0.45);
+}
+
+/* ==================== Text Shortcuts ==================== */
+/* Navigation */
+.text-nav {
+  font-size: var(--font_size_nav);
+  color: var(--text_primary);
+}
+
+/* Headings */
+.text-title {
+  font-size: var(--font_size_title);
+  color: var(--text_primary);
+}
+
+.text-subtitle {
+  font-size: var(--font_size_subtitle);
+  color: var(--text_secondary);
+}
+
+/* Body */
+.text-paragraph {
+  font-size: var(--font_size_paragraph);
+  color: var(--text_primary);
+}
+
+.text-helper {
+  font-size: var(--font_size_helper);
+  color: var(--text_muted);
+}
+
+.text-img-caption {
+  font-size: var(--font_size_image_caption);
+  color: var(--text_muted);
+}
+
+/* Special */
+.text-date {
+  font-size: var(--font_size_date);
+  color: var(--secondary);
+}
+
+/* Text state / emphasis */
+.text-primary {
+  color: var(--primary);
+}
+
+.text-secondary {
+  color: var(--secondary);
+}
+
+.text-muted {
+  color: var(--text_muted);
+}
+
+.text-disabled {
+  color: var(--text_disabled);
+}
+
+.text-inverse {
+  color: var(--text_inverse);
+}
+
+/* Icons */
+.text-small-icon {
+  font-size: var(--font_size_small_icon);
+  color: var(--text_primary);
+}
+
+.text-small-icon-inverse {
+  font-size: var(--font_size_small_icon);
+  color: var(--text_inverse);
+}
+
+.text-large-icon {
+  font-size: var(--font_size_large_icon);
+  color: var(--text_primary);
+}
+
+.text-large-icon-inverse {
+  font-size: var(--font_size_large_icon);
+  color: var(--text_inverse);
+}
+
+/* ==================== Button Base ==================== */
+.btn {
+  font-size: var(--font_size_button);
+  padding: var(--button_padding_y) var(--button_padding_x);
+  border-radius: var(--button_radius);
+  border: none;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    filter 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 6rem;
+}
+
+/* ==================== Button Variants ==================== */
+
+/* Primary */
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--text_inverse);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary_hover);
+}
+
+/* Secondary */
+.btn-secondary {
+  background-color: transparent;
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary);
+  color: var(--text_inverse);
+}
+
+/* Default / Neutral */
+.btn-default {
+  background-color: var(--background_surface);
+  color: var(--text_primary);
+  border: 1px solid var(--border_default);
+}
+
+.btn-default:hover {
+  background-color: var(--background_surface_hover);
+}
+
+/* Status */
+.btn-save {
+  background-color: var(--success);
+  color: var(--text_inverse);
+}
+
+.btn-cancel {
+  background-color: var(--error);
+  color: var(--text_inverse);
+}
+
+.btn-edit {
+  background-color: var(--info);
+  color: var(--text_inverse);
+}
+
+/* File / Icon Button */
+.btn-file,
+.btn-dropdownicon {
+  background-color: var(--background_surface);
+  color: var(--text_primary);
+  border: 1px solid var(--border_default);
+}
+
+.btn-file:hover,
+.btn-dropdownicon:hover {
+  background-color: var(--background_surface_hover);
+}

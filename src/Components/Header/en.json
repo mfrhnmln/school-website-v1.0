@@ -1,0 +1,51 @@
+{
+  "menu": {
+    "profile": "School Profile",
+    "principal_speech": "Principal's Speech",
+    "history": "History",
+    "identity": "School Identity",
+    "vision_mission": "Vision & Mission",
+    "logo": "School Logo",
+    "slogan": "Slogan & Motto",
+    "adiwiyata": "Adiwiyata",
+    "organization": "Organization Structure",
+    "organization_school": "School",
+    "organization_committee": "School Committee",
+    "organization_osis": "Student Council (OSIS)",
+    "organization_mpk": "MPK",
+
+    "news": "News",
+    "school_news": "School News",
+    "agenda": "Agenda",
+    "academic_achievement": "Academic Achievements",
+    "non_academic_achievement": "Extracurricular Achievements",
+
+    "curriculum": "Curriculum",
+    "schedule": "Class Schedule",
+    "academic_calendar": "Academic Calendar",
+    "administration": "Administration",
+    "library": "Library",
+
+    "student_affairs": "Student Affairs",
+    "students": "Student List",
+    "extracurricular": "Extracurricular",
+    "extracurricular_schedule": "Extracurricular Schedule",
+    "counseling": "Counseling",
+
+    "public_relations": "Public Relations",
+    "partnership_committee": "Partnership with School Committee",
+    "partnership_health_center": "Partnership with Health Center",
+
+    "facilities": "Facilities",
+    "facility": "Facility",
+    "infrastructure": "Infrastructure",
+    "healthy_canteen": "Healthy Canteen",
+    "uks": "School Health Unit",
+    "digital_magazine": "Digital Magazine",
+    "e_library_1": "e-Library 1",
+    "e_library_2": "e-Library 2",
+
+    "gallery": "Gallery",
+    "contact": "Contact"
+  }
+}

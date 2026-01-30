@@ -1,0 +1,161 @@
+{
+  "home": "Home",
+  "profile_school": "School Profile",
+  "principal_speech": "Principal's Message",
+  "school_history": "School History",
+  "school_identity": "School Identity",
+  "vision_mission": "Vision & Mission",
+  "school_logo": "School Logo",
+  "school_slogan": "School Slogan & Motto",
+  "adiwiyata": "Adiwiyata",
+
+  "organization_structure": "Organization Structure",
+  "school_structure": "School Organization",
+  "school_committee": "School Committee",
+  "osis_structure": "OSIS",
+  "mpk_structure": "MPK",
+
+  "teachers": "Teachers",
+  "staff": "Staff",
+  "educator": "Educator",
+  "educational_staff": "Educational Staff",
+
+  "best_graduate": "Best Graduates",
+  "best_graduate_detail": "Graduate Details",
+
+  "extracurricular": "Extracurricular",
+  "extracurricular_detail": "Extracurricular Details",
+  "extracurricular_gallery": "Extracurricular Gallery",
+  "extracurricular_schedule": "Extracurricular Schedule",
+
+  "news": "News",
+  "news_detail": "News Details",
+  "agenda": "Agenda",
+  "agenda_detail": "Agenda Details",
+
+  "school_achievement": "School Achievement",
+  "academic_achievement": "Academic Achievements",
+  "academic_achievement_detail": "Academic Achievement Details",
+  "extracurricular_achievement": "Extracurricular Achievements",
+  "extracurricular_achievement_detail": "Extracurricular Achievement Details",
+
+  "learning_schedule": "Learning Schedule",
+  "academic_calendar": "Academic Calendar",
+  "administration": "Administration Office",
+  "library": "Library",
+
+  "student_list": "Student List",
+  "counseling": "Counseling",
+
+  "committee_cooperation": "School Committee Cooperation",
+  "community_health_cooperation": "Community Health Center Cooperation",
+
+  "facilities": "Facilities",
+  "infrastructure": "Infrastructure",
+  "healthy_canteen": "Healthy Canteen",
+  "school_medical_room": "School Medical Room",
+
+  "gallery": "Gallery",
+  "mading": "Wall Magazine",
+
+  "man": "Man",
+  "woman": "Woman",
+
+  "class": "Class",
+  "service_schedule": "Service Schedule",
+  "schedule_activities": "Schedule of Activities",
+  "other_activities": "Other ActivitiesLainnya",
+  "activity_photos": "Activity Photos",
+
+  "schedule": "Schedule",
+  "day": "Day",
+  "time": "O'clock",
+  "oneWeek": "Monday – Friday",
+
+
+  "number": "No",
+  "name": "Name",
+  "status": "Status",
+
+  "location_map": "Location Map",
+  "suggestion_box": "Suggestion Box",
+  "suggestion_desc": "Please send us your suggestions, feedback, or questions.",
+  "email": "Email",
+  "phone": "Phone Number",
+  "message": "Message",
+  "send": "Send Message",
+  "operatingHours": "Operating Hours",
+  "Directions": "Get Directions",
+
+  "read_more": "Read More",
+  "hide": "Hide",
+  "detail": "Detail",
+  "back": "Back",
+  "search": "Search",
+  "searchPlaceholder": "Search content...",
+  "resetFilters": "Reset filters",
+  "category": "Category",
+  "archives": "Archives",
+  "total": "Total",
+  "facility": "Facility",
+
+  "see_all": "See all",
+  "all": "All",
+  "allYears": "All Years",
+
+  "welcome": "Welcome to our School",
+
+  "menu": {
+    "profile": "School Profile",
+    "principal_speech": "Principal's Speech",
+    "history": "History",
+    "identity": "School Identity",
+    "vision_mission": "Vision & Mission",
+    "logo": "School Logo",
+    "slogan": "Slogan & Motto",
+    "adiwiyata": "Adiwiyata",
+    "organization": "Organization Structure",
+    "organization_school": "School",
+    "organization_committee": "School Committee",
+    "organization_osis": "Student Council (OSIS)",
+    "organization_mpk": "MPK",
+
+    "news": "News",
+    "school_news": "School News",
+    "agenda": "Agenda",
+    "academic_achievement": "Academic Achievements",
+    "non_academic_achievement": "Extracurricular Achievements",
+
+    "curriculum": "Curriculum",
+    "schedule": "Class Schedule",
+    "academic_calendar": "Academic Calendar",
+    "best_graduate": "Best Graduate",
+    "educators_and_education": "Educators and Education",
+    "educator": "Educator",
+    "educational_staff": "Educational Staff",
+
+    "student_affairs": "Student Affairs",
+    "students": "Student List",
+    "extracurricular": "Extracurricular",
+    "extracurricular_schedule": "Extracurricular Schedule",
+    "counseling": "Counseling",
+
+    "public_relations": "Public Relations",
+    "partnership_committee": "Partnership with School Committee",
+    "partnership_health_center": "Partnership with Health Center",
+
+    "facilities": "Facilities",
+    "facility": "Facility",
+    "infrastructure": "Infrastructure",
+    "healthy_canteen": "Healthy Canteen",
+    "uks": "School Health Unit",
+    "administration": "Administration",
+    "library": "Library",
+    "digital_magazine": "Digital Magazine",
+    "e_library_1": "e-Library 1",
+    "e_library_2": "e-Library 2",
+
+    "gallery": "Gallery",
+    "contact": "Contact"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "menu": {
+    "profile": "Profil Sekolah",
+    "principal_speech": "Sambutan Kepala Sekolah",
+    "history": "Sejarah",
+    "identity": "Identitas Sekolah",
+    "vision_mission": "Visi & Misi",
+    "logo": "Logo Sekolah",
+    "slogan": "Slogan & Motto",
+    "adiwiyata": "Adiwiyata",
+    "organization": "Struktur Organisasi",
+    "organization_school": "Sekolah",
+    "organization_committee": "Komite Sekolah",
+    "organization_osis": "OSIS",
+    "organization_mpk": "MPK",
+
+    "news": "Berita",
+    "school_news": "Berita Sekolah",
+    "agenda": "Agenda Sekolah",
+    "academic_achievement": "Prestasi Akademik",
+    "non_academic_achievement": "Prestasi Ekstrakurikuler",
+
+    "curriculum": "Kurikulum",
+    "schedule": "Jadwal Pembelajaran",
+    "academic_calendar": "Kalender Akademik",
+    "administration": "Tata Usaha",
+    "library": "Perpustakaan",
+
+    "student_affairs": "Kesiswaan",
+    "students": "Daftar Murid",
+    "extracurricular": "Ekstrakurikuler",
+    "extracurricular_schedule": "Jadwal Ekstrakurikuler",
+    "counseling": "Bimbingan Konseling",
+
+    "public_relations": "Humas",
+    "partnership_committee": "Kerjasama dengan Komite Sekolah",
+    "partnership_health_center": "Kerjasama dengan Puskesmas",
+
+    "facilities": "Sarana Prasarana",
+    "facility": "Sarana",
+    "infrastructure": "Prasarana",
+    "healthy_canteen": "Kantin Sehat",
+    "uks": "Usaha Kesehatan Sekolah",
+    "digital_magazine": "Majalah Digital",
+    "e_library_1": "e-Perpustakaan 1",
+    "e_library_2": "e-Perpustakaan 2",
+
+    "gallery": "Galeri",
+    "contact": "Kontak"
+  }
+}

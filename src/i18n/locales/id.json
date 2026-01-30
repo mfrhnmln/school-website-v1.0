@@ -1,0 +1,164 @@
+{
+  "home": "Beranda",
+
+  "profile_school": "Profil Sekolah",
+  "principal_speech": "Sambutan Kepala Sekolah",
+  "school_history": "Sejarah Sekolah",
+  "school_identity": "Identitas Sekolah",
+  "vision_mission": "Visi & Misi",
+  "school_logo": "Logo Sekolah",
+  "school_slogan": "Slogan & Motto Sekolah",
+  "adiwiyata": "Adiwiyata",
+
+  "organization_structure": "Struktur Organisasi",
+  "school_structure": "Organisasi Sekolah",
+  "school_committee": "Komite Sekolah",
+  "osis_structure": "OSIS",
+  "mpk_structure": "MPK",
+
+  "teachers": "Guru",
+  "staff": "Staff",
+  "educator": "Pendidik",
+  "educational_staff": "Tenaga Kependidikan",
+
+  "best_graduate": "Lulusan Terbaik",
+  "best_graduate_detail": "Detail Lulusan",
+
+  "extracurricular": "Ekstrakurikuler",
+  "extracurricular_detail": "Detail Ekstrakurikuler",
+  "extracurricular_gallery": "Galeri Ekstrakurikuler",
+  "extracurricular_schedule": "Jadwal Ekstrakurikuler",
+
+  "news": "Berita",
+  "news_detail": "Detail Berita",
+  "agenda": "Agenda",
+  "agenda_detail": "Detail Agenda",
+
+  "school_achievement": "Prestasi Sekolah",
+  "academic_achievement": "Prestasi Akademik",
+  "academic_achievement_detail": "Detail Prestasi Akademik",
+  "extracurricular_achievement": "Prestasi Ekstrakurikuler",
+  "extracurricular_achievement_detail": "Detail Prestasi Ekstrakurikuler",
+
+  "learning_schedule": "Jadwal Pembelajaran",
+  "academic_calendar": "Kalender Akademik",
+  "administration": "Tata Usaha",
+  "library": "Perpustakaan",
+
+  "student_list": "Daftar Murid",
+  "counseling": "Bimbingan Konseling",
+
+  "committee_cooperation": "Kerja Sama Komite Sekolah",
+  "community_health_cooperation": "Kerja Sama Puskesmas",
+
+  "facilities": "Sarana",
+  "infrastructure": "Prasarana",
+  "healthy_canteen": "Kantin Sehat",
+  "school_medical_room": "UKS",
+
+  "gallery": "Galeri",
+  "mading": "Mading",
+
+  "man": "Pria",
+  "woman": "Wanita",
+
+  "class": "Kelas",
+  "student": "Murid",
+
+  "service_schedule": "Jadwal Pelayanan",
+  "schedule_activities": "Jadwal Kegiatan",
+  "other_activities": "Kegiatan Lainnya",
+  "activity_photos": "Foto Kegiatan",
+
+  "schedule": "Jadwal",
+  "day": "Hari",
+  "time": "Jam",
+  "oneWeek": "Senin – Jumat",
+
+
+  "number": "No",
+  "name": "Nama",
+  "status": "Status",
+
+  "location_map": "Denah Lokasi",
+  "suggestion_box": "Kotak Saran",
+  "suggestion_desc": "Silakan kirimkan saran, masukan, atau pertanyaan Anda kepada kami.",
+  "email": "Email",
+  "phone": "Nomor Telepon",
+  "message": "Pesan",
+  "send": "Kirim Pesan",
+  "operatingHours": "Jam Operasional",
+  "Directions": "Petunjuk Arah",
+
+  "read_more": "Selengkapnya",
+  "hide": "Sembunyikan",
+  "detail": "Detail",
+  "back": "Kembali",
+  "search": "Cari",
+  "searchPlaceholder": "Cari konten...",
+  "resetFilters": "Reset filter",
+  "category": "Kategori",
+  "archives": "Arsip",
+  "total": "Total",
+  "facility": "Fasilitas",
+
+  "see_all": "Lihat semua",
+  "all": "Semua",
+  "allYears": "Semua Tahun",
+
+  "welcome": "Selamat datang di Website Sekolah kami.",
+
+  "menu": {
+    "profile": "Profil Sekolah",
+    "principal_speech": "Sambutan Kepala Sekolah",
+    "history": "Sejarah",
+    "identity": "Identitas Sekolah",
+    "vision_mission": "Visi & Misi",
+    "logo": "Logo Sekolah",
+    "slogan": "Slogan & Motto",
+    "adiwiyata": "Adiwiyata",
+    "organization": "Struktur Organisasi",
+    "organization_school": "Sekolah",
+    "organization_committee": "Komite Sekolah",
+    "organization_osis": "OSIS",
+    "organization_mpk": "MPK",
+
+    "news": "Berita",
+    "school_news": "Berita Sekolah",
+    "agenda": "Agenda Sekolah",
+    "academic_achievement": "Prestasi Akademik",
+    "non_academic_achievement": "Prestasi Ekstrakurikuler",
+
+    "curriculum": "Kurikulum",
+    "schedule": "Jadwal Pembelajaran",
+    "academic_calendar": "Kalender Akademik",
+    "best_graduate": "Lulusan Terbaik",
+    "educators_and_education": "Pendidik dan Tenaga Kependidikan",
+    "educator": "Pendidik",
+    "educational_staff": "Tenaga Kependidikan",
+
+    "student_affairs": "Kesiswaan",
+    "students": "Daftar Murid",
+    "extracurricular": "Ekstrakurikuler",
+    "extracurricular_schedule": "Jadwal Ekstrakurikuler",
+    "counseling": "Bimbingan Konseling",
+
+    "public_relations": "Humas",
+    "partnership_committee": "Kerjasama dengan Komite Sekolah",
+    "partnership_health_center": "Kerjasama dengan Puskesmas",
+
+    "facilities": "Sarana Prasarana",
+    "facility": "Sarana",
+    "infrastructure": "Prasarana",
+    "healthy_canteen": "Kantin Sehat",
+    "uks": "Usaha Kesehatan Sekolah",
+    "administration": "Tata Usaha",
+    "library": "Perpustakaan",
+    "digital_magazine": "Majalah Digital",
+    "e_library_1": "e-Perpustakaan 1",
+    "e_library_2": "e-Perpustakaan 2",
+
+    "gallery": "Galeri",
+    "contact": "Kontak"
+  }
+}
