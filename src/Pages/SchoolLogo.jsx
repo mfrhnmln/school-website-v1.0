@@ -8,7 +8,7 @@ import ImagePreviewModal from "../Components/ImagePreviewModal";
 
 import DataLogo from "../Data/DataLogo";
 
-const Logo = () => {
+const SchoolLogo = () => {
   const { t, i18n } = useTranslation();
   const lang = i18n.language;
 
@@ -61,7 +61,7 @@ const Logo = () => {
           {DataLogo.title[lang]}
         </h1>
 
-        <div className="flex flex-col w-full h-full gap-4">
+        <div className="flex flex-col w-full h-full text-paragraph gap-4">
             {DataLogo.message[lang].map((item, index) => (
               <p key={index}>{item}</p>
             ))}
@@ -80,4 +80,4 @@ const Logo = () => {
   );
 };
 
-export default Logo;
+export default SchoolLogo;

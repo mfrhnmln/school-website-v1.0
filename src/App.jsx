@@ -8,7 +8,7 @@ import ScrollToTop from "./Function/ScrollToTop";
 import ComponentsHome from "./Pages/Dashboard/ComponentsHome";
 
 // profil sekolah
-import Logo from "./Pages/Logo";
+import Logo from "./Pages/SchoolLogo";
 import VisiMisi from "./Pages/VisiMisi";
 import Adiwiyata from "./Pages/Adiwiyata";
 import SchoolSlogan from "./Pages/SchoolSlogan";
@@ -60,8 +60,6 @@ import Library from "./Pages/Services/Library";
 import Counseling from "./Pages/Services/Counseling";
 import TataUsaha from "./Pages/Services/TataUsaha";
 import SchoolMedicalRoom from "./Pages/Services/SchoolMedicalRoom";
-
-// import Galeri from "./Pages/Galeri";
 
 import Mading from "./Pages/Mading/Mading";
 
@@ -187,8 +185,6 @@ function App() {
                 <Route path="/prasarana" element={<Prasarana />} />
                 <Route path="/kantin-sehat" element={<HealthyCanteen />} />
 
-                {/* ---------------------- galeri ---------------------- */}
-                {/* <Route path="/galeri" element={<Galeri />} /> */}
 
                 {/* ---------------------- service ---------------------- */}
                 <Route path="/tata-usaha" element={<TataUsaha />} />
