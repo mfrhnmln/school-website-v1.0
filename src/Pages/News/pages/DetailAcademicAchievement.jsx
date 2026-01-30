@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import DataAcademicAchievement from "../../../Data/DataAcademicAchievement";
-import ComponentsContentDetail from "../components/ComponentsContentDetail";
+import ComponentsContentDetail from "../Components/ComponentsContentDetail";
 
 const DetailAcademicAchievement = () => {
   const { t } = useTranslation();

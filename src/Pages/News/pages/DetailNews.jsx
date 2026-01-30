@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import DataNews from "../../../Data/DataNews";
-import ComponentsContentDetail from "../components/ComponentsContentDetail";
+import ComponentsContentDetail from "../Components/ComponentsContentDetail";
 
 const DetailNews = () => {
   const { t } = useTranslation();

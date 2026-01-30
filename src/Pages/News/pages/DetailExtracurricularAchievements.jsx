@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import DataExtracurricularAchievements from "../../../Data/DataExtracurricularAchievements";
-import ComponentsContentDetail from "../components/ComponentsContentDetail";
+import ComponentsContentDetail from "../Components/ComponentsContentDetail";
 
 const DetailExtracurricularAchievements = () => {
   const { t } = useTranslation();

@@ -3,9 +3,9 @@ import { useSearchParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 import Breadcrumb from "../../../Components/Breadcrumb";
-import Sidebar from "../components/SidebarNews";
+import Sidebar from "../Components/SidebarNews";
 import Pagination from "../../../Components/Pagination";
-import ComponentsContentList from "../components/ComponentsContentList";
+import ComponentsContentList from "../Components/ComponentsContentList";
 
 import {
   normalizeData,

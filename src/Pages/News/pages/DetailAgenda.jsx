@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 import DataAgenda from "../../../Data/DataAgenda";
-import ComponentsContentDetail from "../components/ComponentsContentDetail";
+import ComponentsContentDetail from "../Components/ComponentsContentDetail";
 
 const DetailAgenda = () => {
   const { t } = useTranslation();

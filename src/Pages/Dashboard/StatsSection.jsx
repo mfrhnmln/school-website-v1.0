@@ -1,6 +1,5 @@
 import StatCard from "./StatCard";
 import { RiBuilding2Fill, RiMedalFill } from "react-icons/ri";
-
 import { FaUsers, FaUserTie } from "react-icons/fa";
 
 const StatsSection = () => {
